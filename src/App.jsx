@@ -309,7 +309,7 @@ export default function TravelEaseLandingPage() {
           <div className="text-center">
             <div className="text-sm font-semibold uppercase tracking-[0.2em] text-[#0F4C81]">FAQ</div>
             <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-950 md:text-4xl">
-              Questions your users — and your professor — will expect to be answered.
+              Frequently asked Questions.
             </h2>
           </div>
           <div className="mt-10 space-y-4">
