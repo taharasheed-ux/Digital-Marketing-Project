@@ -72,12 +72,12 @@ export default function TravelEaseLandingPage() {
   return (
     <div className="min-h-screen bg-white text-slate-900">
       <header className="sticky top-0 z-30 border-b border-slate-200/80 bg-white/90 backdrop-blur">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-1 lg:px-8">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
           <div className="flex items-center gap-3">
             <img
               src="/full-logo.png"
-              alt="TravelEase AI full logo"
-              className="h-20 w-auto md:h-24 lg:h-28"
+              alt="TravelEase AI logo"
+              className="h-26 w-auto md:h-26"
             />
           </div>
 
@@ -105,7 +105,7 @@ export default function TravelEaseLandingPage() {
               <div className="mb-4 inline-flex w-fit items-center gap-3 rounded-full border border-[#0F4C81]/15 bg-[#0F4C81]/5 px-4 py-2 text-sm font-medium text-[#0F4C81]">
                 <img
                   src="/logo.png"
-                  alt="TravelEase AI icon logo"
+                  alt="TravelEase AI icon"
                   className="h-7 w-7"
                 />
                 <span>AI-powered travel planning platform</span>
@@ -115,6 +115,9 @@ export default function TravelEaseLandingPage() {
               </h1>
               <p className="mt-6 max-w-xl text-lg leading-8 text-slate-600">
                 Build personalized itineraries, discover destinations, and plan within budget in seconds with TravelEase AI.
+              </p>
+              <p className="mt-4 max-w-2xl text-base leading-7 text-slate-500">
+                TravelEase AI is an AI travel planner built for users who want faster trip planning, smarter recommendations, and budget-friendly travel decisions without the usual research overload.
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
                 <a
@@ -230,6 +233,39 @@ export default function TravelEaseLandingPage() {
           </div>
         </section>
 
+        <section className="bg-slate-50/70 py-18">
+          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+            <div className="max-w-2xl">
+              <div className="text-sm font-semibold uppercase tracking-[0.2em] text-[#0F4C81]">Use cases</div>
+              <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-950 md:text-4xl">
+                Built for different kinds of travelers with different planning needs.
+              </h2>
+            </div>
+            <div className="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+              <div className="rounded-[2rem] bg-white p-7 shadow-sm border border-slate-200">
+                <div className="text-2xl">🎒</div>
+                <h3 className="mt-4 text-xl font-semibold text-slate-950">Students</h3>
+                <p className="mt-3 leading-7 text-slate-600">Plan affordable trips faster with budget-aware itineraries and simple destination ideas.</p>
+              </div>
+              <div className="rounded-[2rem] bg-white p-7 shadow-sm border border-slate-200">
+                <div className="text-2xl">🧍</div>
+                <h3 className="mt-4 text-xl font-semibold text-slate-950">Solo travelers</h3>
+                <p className="mt-3 leading-7 text-slate-600">Get a clearer trip structure, activity recommendations, and less planning stress before you go.</p>
+              </div>
+              <div className="rounded-[2rem] bg-white p-7 shadow-sm border border-slate-200">
+                <div className="text-2xl">💑</div>
+                <h3 className="mt-4 text-xl font-semibold text-slate-950">Couples</h3>
+                <p className="mt-3 leading-7 text-slate-600">Build balanced itineraries with scenic ideas, practical timing, and smoother decision-making.</p>
+              </div>
+              <div className="rounded-[2rem] bg-white p-7 shadow-sm border border-slate-200">
+                <div className="text-2xl">👨‍👩‍👧‍👦</div>
+                <h3 className="mt-4 text-xl font-semibold text-slate-950">Families</h3>
+                <p className="mt-3 leading-7 text-slate-600">Organize trips more easily with structured plans, clearer budgets, and more confidence.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section id="demo" className="mx-auto max-w-7xl px-6 py-18 lg:px-8">
           <div className="grid gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
             <div>
@@ -341,7 +377,7 @@ export default function TravelEaseLandingPage() {
                   <input className="w-full rounded-2xl border border-slate-200 px-4 py-3 outline-none" placeholder="Full name" />
                   <input className="w-full rounded-2xl border border-slate-200 px-4 py-3 outline-none" placeholder="Email address" />
                   <button className="w-full rounded-2xl bg-[#F28C28] px-4 py-3 font-semibold text-white transition hover:scale-[1.01]">
-                    Join waitlist
+                    Join Waitlist
                   </button>
                 </div>
               </div>
